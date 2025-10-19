@@ -1,0 +1,67 @@
+name: 🧠 Adaptive Circle CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    name: 🔧 Build & Test
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up C++ environment
+        uses: aminya/setup-cpp@v2
+        with:
+          compiler: gcc
+          version: latest
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y cmake lua5.4 liblua5.4-dev
+
+      - name: Build project
+        run: |
+          mkdir -p build && cd build
+          cmake ..
+          make -j$(nproc)
+
+      - name: Run unit tests
+        run: |
+          cd build
+          ctest --output-on-failure
+
+  lint:
+    runs-on: ubuntu-latest
+    name: 🧹 Lint & Code Style
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run clang-format check
+        run: |
+          find . -name "*.cpp" -o -name "*.h" | xargs clang-format --dry-run --Werror
+
+  security:
+    runs-on: ubuntu-latest
+    name: 🔒 Dependency Security Scan
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run CodeQL Analysis
+        uses: github/codeql-action/analyze@v3
+        with:
+          category: "/language:cpp"
+
+  summary:
+    needs: [build-and-test, lint, security]
+    runs-on: ubuntu-latest
+    name: ✅ Summary
+    steps:
+      - run: echo "✅ All checks passed successfully."
