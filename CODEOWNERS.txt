@@ -1,0 +1,44 @@
+# ========================================
+# Adaptive Intelligence Circle - CODEOWNERS
+# ========================================
+# This file defines the maintainers responsible
+# for specific components of the ecosystem.
+# GitHub automatically requests reviews based on these mappings.
+# ----------------------------------------
+
+# Global Maintainers (default fallback)
+*                                           @AdaptiveCircle/CoreMaintainers
+
+# Core System Components
+/core/                                      @AdaptiveCircle/CoreMaintainers
+
+# Runtime and Execution Engine
+/runtime/                                   @AdaptiveCircle/RuntimeMaintainers
+
+# Protection and Security Layer
+/modules/protection/                        @AdaptiveCircle/SecurityTeam
+
+# Preprocessing and Data Pipelines
+/modules/preprocessing/                     @AdaptiveCircle/DataPipelineTeam
+
+# Communication, Sync, and Node Management
+/modules/communication/                     @AdaptiveCircle/NetworkTeam
+
+# Language and Compiler Subsystem
+/language/                                  @AdaptiveCircle/CompilerTeam
+
+# Behavior Simulation and Sandbox
+/simulation/                                @AdaptiveCircle/BehaviorTeam
+
+# Documentation, diagrams, and meta-specs
+/docs/                                      @AdaptiveCircle/ResearchTeam
+
+# Workflows and CI/CD definitions
+/.github/                                   @AdaptiveCircle/CoreMaintainers
+
+# ----------------------------------------
+# Notes:
+# - Each team above should be defined under the GitHub organization
+#   (Settings → Teams → New Team).
+# - At least one member per team must have “Write” or “Maintain” permission.
+# - Avoid assigning single individuals unless the module is experimental.
