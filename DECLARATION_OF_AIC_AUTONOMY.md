@@ -2,7 +2,9 @@
 *(Issued under the spirit of Open Governance)*  
 
 **Author:** Nguyen Duc Tri 
-**Date:** : 27 - 10 - 2025 
+
+**Date:** 27 - 10 - 2025
+
 **License:** Apache 2.0  
 
 ---
