@@ -89,7 +89,10 @@ Each module under `/modules/` must include a short ethics note:
 
 ## VII. Transparency and Records
 
-- All commits are timestamped and signed by PGP or Git hash.  
+- All commits are timestamped and signed by PGP or Git hash.
+- All governance votes and results are public in:
+- Major decisions must be summarized quarterly under:
+
 ---
 
 ## VIII. Sustainability and Evolution
@@ -113,5 +116,4 @@ If the system stagnates, the review committee can trigger a **Governance Reset**
 
 ---
 
-- All governance votes and results are public in:
 
