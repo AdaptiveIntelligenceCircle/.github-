@@ -11,7 +11,7 @@
 
 ## Preamble
 
-We, the contributors and custodians of the **Adaptive Intelligence Collective (AIC)**,  
+We, the contributors and custodians of the **Adaptive Intelligence Circle (AIC)**,  
 hereby declare that this project exists as an **autonomous, self-governing, and non-hierarchical entity**,  
 bound not by corporate interest nor by centralized authority,  
 but by the principles of **knowledge integrity, collective intelligence, and human dignity**.
