@@ -53,4 +53,44 @@ which computes trust and contribution scores to ensure fair leadership cycling.
 - **Voting Mechanism:**  
   Implemented via `VOTING_PROTOCOL.lua`, which verifies contribution hashes.  
 
-- **Proposal Flow:**  
+- **Proposal Flow:**
+   submit proposal → community discussion (7 days)
+   → vote phase (3 days)
+   → auto-merge if approved
+  
+- **Emergency Action:**  
+Core maintainers may apply temporary patch only if  
+(a) system security is threatened, and  
+(b) patch expires in 72 hours without consensus renewal.
+
+---
+
+## V. Conflict & Fork Policy
+
+- Any member may **fork AIC** freely.  
+- A fork is recognized as **legitimate** if it:
+- retains the `DECLARATION_OF_AIC_AUTONOMY.md` unchanged, and  
+- remains open under Apache 2.0.  
+
+Otherwise, the fork is classified as **Derivative Non-Compliant (DNC)**  
+and cannot claim AIC lineage.
+
+---
+
+## VI. Ethics and Compliance
+
+AIC rejects:
+- state or corporate monopolization,  
+- data exploitation,  
+- AI militarization, and  
+- manipulative behavioral systems.
+
+Each module under `/modules/` must include a short ethics note:
+
+---
+
+## VII. Transparency and Records
+
+- All commits are timestamped and signed by PGP or Git hash.  
+- All governance votes and results are public in:
+
