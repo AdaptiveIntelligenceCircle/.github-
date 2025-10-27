@@ -87,10 +87,31 @@ AIC rejects:
 
 Each module under `/modules/` must include a short ethics note:
 
----
-
 ## VII. Transparency and Records
 
 - All commits are timestamped and signed by PGP or Git hash.  
+---
+
+## VIII. Sustainability and Evolution
+
+- Governance is a *living protocol* — self-modifying under consensus.  
+- Every 12 months, a **Meta Review** evaluates:
+- fairness,
+- participation,
+- and resilience of the structure.
+
+If the system stagnates, the review committee can trigger a **Governance Reset**, reinitializing the trust graph.
+
+---
+
+## IX. Closing Principle
+
+> “In the absence of hierarchy, let truth and contribution be our order.”  
+> — AIC Core Principle
+
+
+
+---
+
 - All governance votes and results are public in:
 
