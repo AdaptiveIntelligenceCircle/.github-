@@ -71,8 +71,8 @@ every system that violates it has forsaken the name.
 ## Closing Words
 
 > “No one owns the flame — we only keep it burning.”  
-> — Tri ND, Founder of AIC Core Protocol  
+> — Nguyen Duc Tri, Founder of AIC Core Protocol  
 
 **Signed digitally:**  
-`Author: Tri ND`  
+`Author: Nguyen Duc Tri`  
 `Hash: [replace with commit SHA256 when published]`
