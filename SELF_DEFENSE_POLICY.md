@@ -2,6 +2,12 @@
 *(Adaptive Intelligence Circle)*  
 **Version 1.0 – Protection Protocol for Autonomous Integrity**
 
+**Author: Nguyen Duc Tri**
+
+**Date: 27 - 10 - 2025**
+
+**License: Apache 2.0**
+
 ---
 
 ## 1. Core Principle
