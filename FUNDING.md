@@ -44,5 +44,8 @@ Perks (optional and minimal):
 
 - Private GitHub discussion room.
 
+=> "Funding for the independent and long-term development of the project. No feature requests in exchange for funding. 
+The project roadmap is not dependent on the sponsor.”
+
 ### AIC is a long-term infrastructure project aiming for 10–20+ years of development.
 Thank you for supporting the future of secure, adaptive intelligence.
