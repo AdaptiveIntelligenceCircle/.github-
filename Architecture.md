@@ -7,6 +7,7 @@ Whitepaper v0.1 — December 2025
 Abstract
 
 This paper introduces AIC/IBCS, an Adaptive Intelligence Operating Layer designed to provide deterministic introspection, behavior control, and safety rollback for AI systems. Unlike conventional agent-based models, AIC operates at the root layer, offering a framework for:
+
 	•	behavioral consistency
 	•	real-time introspection
 	•	distributed safety
