@@ -147,13 +147,19 @@ Future versions support:
 8. Use Cases
 
 	•	Safety-critical systems
+
 	•	Autonomous vehicle simulation
+
 	•	Distributed reasoning agents
+
 	•	Adaptive cybersecurity
+
 	•	AI auditing frameworks
+
 	•	Behavior-centric robotics
 
 9. Conclusion 
+
 AIC/IBCS provides a foundation for a controllable, introspective, and safe adaptive AI system.
 Its architecture is minimal yet powerful, bridging OS principles with AI behavior.
 
