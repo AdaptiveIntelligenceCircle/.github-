@@ -5,7 +5,7 @@ Adaptive Intelligence Operating Layer
 
 ### 1. High-Level Architecture
 
-AIC (Adaptive Intelligence Core) / IBCS (Introspective Behavioral Compiler System) is a root-level AI operating layer designed to:
+AIC (Adaptive Intelligence Circle) / IBCS (Introspective Behavioral Compiler System) is a root-level AI operating layer designed to:
 
 + introspect behavior dynamically
 
