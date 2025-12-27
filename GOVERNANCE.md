@@ -17,6 +17,9 @@ Adaptive Intelligence Circle (AIC) is a **non-profit, open-source collective** d
 
 AIC exists to **advance knowledge and public-good technology**, not to maximize profit or proprietary advantage.
 
+AIC’s organizational governance is human-led.
+Technical protocols developed under separate repositories are independent research efforts and do not define organizational control.
+
 ---
 
 ## 2. Governance Model

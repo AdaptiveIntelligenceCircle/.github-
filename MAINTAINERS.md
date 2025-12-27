@@ -245,7 +245,7 @@ When AIC evolves into the **Adaptive Intelligence Network (AIN)** and forms a Fo
 
 This project is governed under:
 
-* **Apache License 2.0**
+* **GNU GPL-v3.0**
 * Or dual-license model specified in LICENSE.md
 
 Maintainers ensure all contributions comply.
@@ -256,4 +256,3 @@ Maintainers ensure all contributions comply.
 
 ---
 
-Bạn muốn file nào tiếp?
