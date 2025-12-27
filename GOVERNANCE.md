@@ -1,119 +1,171 @@
-# AIC Governance Protocol  
-*(Adaptive, Transparent, and Trust-Based)*
+Author : Nguyen Duc Tri
+License : GNU GPL-v3.0
+---
 
-**Version:** 1.0  
+# GOVERNANCE.md
 
-**Maintained by:** AIC Core Protocol Custodians  
+**Adaptive Intelligence Circle (AIC)**
 
-**License: GNU GPL-v3.0** 
+## 1. Purpose
+
+Adaptive Intelligence Circle (AIC) is a **non-profit, open-source collective** dedicated to building **ethical, adaptive, and system-level AI technologies**, with a strong emphasis on:
+
+* Human-aligned AI
+* Non-commercial infrastructure
+* Long-term safety, control, and governance
+* Open research and transparent collaboration
+
+AIC exists to **advance knowledge and public-good technology**, not to maximize profit or proprietary advantage.
 
 ---
 
-## I. Purpose
+## 2. Governance Model
 
-This document defines the **governance architecture** for AIC —  
-a decentralized, self-regulating network designed to sustain open collaboration, ethical AI development, and adaptive consensus.
+AIC adopts a **Steward-Led, Community-Driven** governance model.
 
----
+### 2.1 Steward
 
-## II. Core Roles
+* AIC is stewarded by **a single maintainer (the Steward)**.
+* The Steward holds **final responsibility and authority** over:
 
-| Role | Description | Duration |
-|------|--------------|-----------|
-| **Custodian** | Maintains core repository integrity; enforces governance updates. | 6 months (rotating) |
-| **Contributor** | Develops, reviews, or documents modules within AIC. | Continuous |
-| **Observer** | Participates in discussions, learns, and can propose issues. | Open |
+  * Project vision and philosophical direction
+  * Ethical boundaries and non-commercial stance
+  * Repository ownership and merge decisions
+  * Representation of AIC to external organizations
 
-Rotation is handled automatically through the script `ROTATE_ROLE.lua`,  
-which computes trust and contribution scores to ensure fair leadership cycling.
+This model is intentional and designed to **protect the integrity, ethics, and long-term mission** of the project.
 
----
-
-## III. Governance Layers
-
-1. **Root Charter**  
-   - Defined in `DECLARATION_OF_AIC_AUTONOMY.md`.  
-   - Immutable except by 90% community consensus.  
-
-2. **Operational Layer**  
-   - Defined in this `GOVERNANCE.md`.  
-   - Controls versioning, voting, and conflict resolution.  
-
-3. **Ethical Layer**  
-   - Overseen by the Ethics Node.  
-   - Verifies all commits and policies against human-aligned standards.  
+> The Steward role is a responsibility, not a claim of ownership over contributors’ work.
 
 ---
 
-## IV. Decision-Making
+### 2.2 Contributors
 
-- **Consensus Threshold:**  
-  `Proposal accepted if ≥70% active contributors approve via vote.`  
+* AIC is **open to contributions from anyone**, regardless of affiliation.
+* Contributors may participate by:
 
-- **Voting Mechanism:**  
-  Implemented via `VOTING_PROTOCOL.lua`, which verifies contribution hashes.  
+  * Writing code
+  * Improving documentation
+  * Proposing designs or research
+  * Reviewing issues and pull requests
+  * Participating in discussions
 
-- **Proposal Flow:**
-   submit proposal → community discussion (7 days)
-   → vote phase (3 days)
-   → auto-merge if approved
-  
-- **Emergency Action:**  
-Core maintainers may apply temporary patch only if  
-(a) system security is threatened, and  
-(b) patch expires in 72 hours without consensus renewal.
+Contributors:
 
----
-
-## V. Conflict & Fork Policy
-
-- Any member may **fork AIC** freely.  
-- A fork is recognized as **legitimate** if it:
-- retains the `DECLARATION_OF_AIC_AUTONOMY.md` unchanged, and  
-- remains open under Apache 2.0.  
-
-Otherwise, the fork is classified as **Derivative Non-Compliant (DNC)**  
-and cannot claim AIC lineage.
+* **Do not gain ownership or control** over the project direction by default
+* Retain copyright over their individual contributions
+* Agree to respect the project’s ethical and non-commercial principles
 
 ---
 
-## VI. Ethics and Compliance
+## 3. Decision-Making Process
 
-AIC rejects:
-- state or corporate monopolization,  
-- data exploitation,  
-- AI militarization, and  
-- manipulative behavioral systems.
+* Technical and design decisions are made through:
 
-Each module under `/modules/` must include a short ethics note:
+  * Open discussion (Issues, Pull Requests, Discussions)
+  * Review by contributors and maintainers
+* The Steward:
 
-## VII. Transparency and Records
+  * Listens to community input
+  * Encourages plural perspectives
+  * Makes the **final decision** when consensus is unclear
 
-- All commits are timestamped and signed by PGP or Git hash.
-- All governance votes and results are public in:
-- Major decisions must be summarized quarterly under:
+This prevents:
 
----
-
-## VIII. Sustainability and Evolution
-
-- Governance is a *living protocol* — self-modifying under consensus.  
-- Every 12 months, a **Meta Review** evaluates:
-- fairness,
-- participation,
-- and resilience of the structure.
-
-If the system stagnates, the review committee can trigger a **Governance Reset**, reinitializing the trust graph.
+* Directional fragmentation
+* Ethical dilution
+* Premature commercialization pressure
 
 ---
 
-## IX. Closing Principle
+## 4. Non-Commercial & Ethical Boundary
 
-> “In the absence of hierarchy, let truth and contribution be our order.”  
-> — AIC Core Principle
+AIC is explicitly **non-commercial by default**.
 
+* No part of AIC may be:
 
+  * Monetized without explicit community disclosure
+  * Transformed into a proprietary product under the AIC name
+* Commercial use by third parties must:
+
+  * Respect the open-source license
+  * Not imply endorsement or ownership by AIC
+
+Ethical AI principles are treated as **technical constraints**, not optional guidelines.
 
 ---
 
+## 5. Relationship to Institutions
+
+AIC is **independent of any university, corporation, or government body**.
+
+* Contributions from academic institutions are welcome
+* AIC is **not owned, managed, or controlled** by any institution
+* Institutional affiliation does **not grant governance authority**
+
+AIC remains community-governed and steward-led at all times.
+
+---
+
+## 6. Open Collective & Funding Transparency
+
+AIC uses **Open Collective** for transparency and public accountability.
+
+* All funds are:
+
+  * Publicly visible
+  * Used only for infrastructure, research, or community needs
+* The Steward is responsible for:
+
+  * Ethical fund usage
+  * Public justification of expenses
+
+Funding does **not** grant governance power.
+
+---
+
+## 7. Conflict Resolution
+
+In the event of:
+
+* Ethical disputes
+* Directional conflicts
+* Governance concerns
+
+The process is:
+
+1. Open discussion
+2. Clarification of principles
+3. Final decision by the Steward
+
+This prioritizes project continuity and ethical coherence.
+
+---
+
+## 8. Evolution of Governance
+
+As AIC grows, governance **may evolve**.
+
+Possible future changes include:
+
+* Advisory councils
+* Multiple maintainers
+* Specialized stewardship roles
+
+However:
+
+* Any governance change must **preserve the non-commercial, ethical core**
+* No change may be imposed retroactively without transparency
+
+---
+
+## 9. Summary
+
+* **One Steward, many contributors**
+* **Open collaboration, protected vision**
+* **Non-profit, non-commercial, ethical by design**
+
+AIC exists to serve the long-term public good.
+
+---
 
