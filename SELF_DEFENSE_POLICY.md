@@ -6,7 +6,7 @@
 
 **Date: 27 - 10 - 2025**
 
-**License: Apache 2.0**
+**License: GNU GPL-v3.0**
 
 ---
 

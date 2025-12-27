@@ -124,8 +124,8 @@ AIC follows an **open-source, open-governance, open-innovation** model.
 
 ### **4.1. Current License**
 
-* **Apache 2.0 (Primary)**
-* **Optional GPL components** (for derivative modules)
+* **GNU GPL-v3.0** (Primary)**
+* **Optional Apache 2.0 components** (for derivative modules)
 
 ### **4.2. Patent Strategy**
 

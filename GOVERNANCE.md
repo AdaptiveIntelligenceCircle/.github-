@@ -5,7 +5,7 @@
 
 **Maintained by:** AIC Core Protocol Custodians  
 
-**License:** Apache 2.0  
+**License: GNU GPL-v3.0** 
 
 ---
 
