@@ -3,6 +3,11 @@
 --   lua ROTATE_ROLE.lua <period_days> <custodians_count> <contributors_file> <output_file>
 -- Example:
 --   lua ROTATE_ROLE.lua 14 3 contributors.lua custodians.lua
+-- Status: dormant / future-use
+-- Expected relevance: medium-to-long term (3–5 years)
+-- This module is not currently used in the active runtime.
+-- It exists as a forward-compatible primitive for future
+-- decentralized coordination between devices.
 
 local args = {...}
 if #args < 4 then
