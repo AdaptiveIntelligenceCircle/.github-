@@ -20,6 +20,9 @@ AIC exists to **advance knowledge and public-good technology**, not to maximize 
 AIC’s organizational governance is human-led.
 Technical protocols developed under separate repositories are independent research efforts and do not define organizational control.
 
+This governance document applies only to human and organizational collaboration.
+Technical protocols and system architectures are defined and governed within their respective repositories.
+
 ---
 
 ## 2. Governance Model
