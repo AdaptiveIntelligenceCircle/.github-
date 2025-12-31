@@ -2,7 +2,7 @@
 
 > **Building the Next Generation of Introspective, Adaptive, and Ethical AI Systems.**
 
-Welcome to the **Adaptive Intelligence Research Organization (AIRO)** —  
+Welcome to the **Adaptive Intelligence Circle Organization (AICO)** —  
 an open-source ecosystem dedicated to developing **self-adaptive, context-aware, and trustworthy AI architectures** for the next era of intelligent systems.
 
 ---
@@ -20,6 +20,8 @@ Our mission is to create a **foundation of open technologies** that combine:
 
 Together, these projects aim to form a **distributed cognitive infrastructure** —  
 bridging reasoning, security, and human-centered AI at the operating system level.
+
+> **Upcoming projects: AIC-Agents, AIC-Research, AIC-DePin, AIC-Earth, AIC-EdgeOS (in active development – coming 2026)**
 
 ---
 
