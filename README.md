@@ -1,4 +1,4 @@
-# 🌌 Adaptive Intelligence Research Organization
+# 🌌 Adaptive Intelligence Circle Organization
 
 > **Building the Next Generation of Introspective, Adaptive, and Ethical AI Systems.**
 
