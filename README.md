@@ -63,7 +63,7 @@ you’re already part of this movement.
 
 ## 🧩 License
 
-All repositories are licensed under the **Apache License 2.0**,  
+All repositories are licensed under the **GNU GPL-3.0**,  
 ensuring freedom to use, modify, and distribute with attribution.
 
 ---
