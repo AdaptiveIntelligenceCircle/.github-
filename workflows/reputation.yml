@@ -1,0 +1,28 @@
+name: Update Contributor Badges
+
+on:
+  pull_request:
+    types: [closed]
+
+jobs:
+  update-badges:
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.merged == true
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Update CONTRIBUTORS.md
+        run: |
+          echo "Updating badges..."
+          # Simple example: append contributor + badge when PR merged
+          AUTHOR=${{ github.event.pull_request.user.login }}
+          echo "- ${AUTHOR} 🥉 Contributor Badge" >> CONTRIBUTORS.md
+
+      - name: Commit changes
+        run: |
+          git config --global user.name 'AIC-Bot'
+          git config --global user.email 'bot@aic.org'
+          git add CONTRIBUTORS.md
+          git commit -m "Award badge to $AUTHOR"
+          git push
